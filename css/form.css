@@ -1,0 +1,68 @@
+body{
+	background-color:#4B616F;
+}
+
+#menu{
+	background:#859CA4;
+	height:60px;
+}
+
+#menu ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+
+#menu ul li a{
+	display:block;
+	float:left;
+	height:40px;
+	padding:10px 20px;
+	color:white;
+	text-decoration:none;
+	margin-right:10px;
+}
+
+#menu ul li a:hover {
+	background:#172D3A;
+}
+
+fieldset{
+	margin:10px 0 0 0;
+	clear:both;
+	width:400px;
+}
+
+fieldset legend{
+	color:white;
+}
+
+label{
+	display:block;
+	font:12px Arial;
+	float:left;
+	width:200px;
+	margin:10px;
+	color:white;
+} 
+
+input{
+	display:block;
+	width:200px;
+}
+
+.peqInput{
+	width:50px;
+}
+
+.grInput{
+	width:380px;
+}
+
+.medInput{
+	width:290px;
+}
+
+.button{
+	color:#4B616F;
+}
