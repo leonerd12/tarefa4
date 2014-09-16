@@ -28,19 +28,19 @@ $row = $consulta->fetch(PDO::FETCH_OBJ);
         <label for="exampleInputPassword1">Senha</label>
         <input type="password" class="form-control" name="senha" value="">
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="editar" type="checkbox" <?php if($row->editar) echo 'checked';  ?>>
             Editar Dados
         </label>
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="excluir" type="checkbox" <?php if($row->excluir) echo 'checked';  ?>>
             Excluir Dados
         </label>
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="incluir" type="checkbox" <?php if($row->incluir) echo 'checked';  ?>>
             Incluir Dados

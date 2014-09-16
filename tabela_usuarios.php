@@ -32,10 +32,10 @@ $seleciona = $conn->query("SELECT * FROM usuarios ORDER BY id_usuario;");
                     <td><?= $usuario->login_usuario; ?></td>                    
                     <td><?= $usuario->senha_usuario; ?></td>
                     <?php if ($_SESSION['editar'] === true): ?>
-                        <td><a href="update.php?id=<?= $usuario->id_usuario; ?>" class="btn btn-primary" role="button">Atualizar Dados</a></td>
+                    <td><a href="update.php?id=<?= $usuario->id_usuario; ?>" class="btn btn-primary" role="button"><span class="glyphicon glyphicon-edit"></span>Atualizar Dados</a></td>
                     <?php endif; ?>
                     <?php if ($_SESSION['excluir'] === true): ?>
-                        <td><a href="aux_delete.php?id_d=<?= $usuario->id_usuario; ?>" class="btn btn-danger" role="button">Excluir Dados</a></td>
+                    <td><a href="aux_delete.php?id_d=<?= $usuario->id_usuario; ?>" class="btn btn-danger" role="button"><span class="glyphicon glyphicon-remove"></span>Excluir Dados</a></td>
                     <?php endif; ?>
                 </tr>
 

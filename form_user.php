@@ -18,19 +18,19 @@
         <label for="exampleInputPassword1">Senha</label>
         <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha">
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="editar" type="checkbox">
             Editar Dados
         </label>
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="excluir" type="checkbox">
             Excluir Dados
         </label>
     </div>
-    <div class="checkbox">
+    <div class="form-group col-md-8 checkbox">
         <label>
             <input name="incluir" type="checkbox">
             Incluir Dados
